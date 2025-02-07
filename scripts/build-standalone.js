@@ -14,6 +14,7 @@ const buildConfig = {
   outfile: 'dist/standalone.js',
   metafile: enableAnalyze,
   bundle: true,
+  platform: 'node',
   target: ['chrome69'],
   format: 'cjs',
   sourcemap: true,

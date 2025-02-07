@@ -13,6 +13,7 @@ const buildConfig = {
   metafile: enableAnalyze,
   bundle: true,
   target: ['chrome69'],
+  platform: 'node',
   format: 'iife',
   sourcemap: true,
   sourcesContent: true,
